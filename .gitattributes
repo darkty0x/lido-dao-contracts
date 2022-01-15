@@ -1,1 +1,7 @@
 *.sol linguist-language=Solidity
+*.c         linguist-vendored
+Makefile    linguist-vendored
+*.sh        linguist-vendored
+node_modules/** linguist-vendored
+*.pb.go         linguist-generated
+*.md             linguist-documentation
